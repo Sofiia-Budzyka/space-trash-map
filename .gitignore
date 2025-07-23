@@ -1,0 +1,85 @@
+# ---- Node (client) ----
+
+# Node modules
+/client/node_modules/
+/client/.env
+/client/dist/
+/client/build/
+
+# Logs
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+
+# IDEs
+/client/.vscode/
+/client/.idea/
+
+
+# ---- Python (server) ----
+
+# Python cache
+/server/__pycache__/
+/server/*.py[cod]
+/server/**/*.py[cod]
+
+# Virtual environments
+/server/venv/
+/server/.env
+
+# PyInstaller
+/server/build/
+/server/dist/
+/server/*.spec
+
+# Logs
+/server/*.log
+
+
+# ---- General ----
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual environments (global)
+venv/
+env/
+
+# PyCharm, VSCode, JetBrains
+.idea/
+.vscode/
+
+# OS files
+*.swp
+
+# Docker
+*.env
+
+# Backup files
+*.bak
+*.tmp
+
+# Compiled files
+*.so
+
+
+# ---- Tests ----
+/server/tests/__pycache__/
+
+
+# ---- Coverage reports ----
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+
+# ---- Misc ----
+*.log
