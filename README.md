@@ -33,19 +33,19 @@ The millions of debris left in orbit pose a threat to active satellites and spac
 ### Clone repository
 
 ```bash
-git clone https://github.com/yourusername/spacetrashmap.git
-cd spacetrashmap
+git clone https://github.com/Antonov-Artem/space-trash-map.git
+cd space-trash-map
 ```
 
 ### Install dependencies
 
 ```bash
-# Для frontend
-cd frontend
+# For client
+cd client
 npm install
 
-# Для backend
-cd ../backend
+# For server
+cd server
 pip install -r requirements.txt
 ```
 
